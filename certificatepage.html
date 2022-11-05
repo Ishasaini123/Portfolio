@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>certificates</title>
+    <link rel="stylesheet" href="certificate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- <h1>OUR Gallery</h1> -->
+
+    <navbar>
+
+        <div class="container">
+
+            <div class="name">ISHA</div>
+
+            <div class="info">
+
+                <div class="about">
+                    <a href="#long">About</a>
+                </div>
+
+                <div class="portfolio">
+                    <a href="https://drive.google.com/drive/folders/13LFwJ9GcaFbnxbWpSAMElRjS1Ms8ltlR?usp=sharing" target="_blank">Certificates</a>
+                </div>
+
+                <div class="cntct">
+                    <a href="#contact">Contact</a>
+                </div>
+
+            </div>
+        </div>
+
+    `
+
+    <!-- <intro>
+        <div class="hi">
+            <h1 data-aos="fade-up"  data-aos-duration="3000">Hi,I'm Isha</h1>
+            <p data-aos="fade-up"  data-aos-duration="3000">A Web Developer</p>
+        </div>
+    </intro> -->
+
+</navbar>
+    
+<h1>Achievements</h1>
+    <div class="gallery" id="gallery">
+        <div class="gallery-item">
+            <div class="content"><img src="img/Ethical Hacking Training - Certificate of Completion (1)_page-0001.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/ISHA SAINI_page-0001.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/isha_0401-SNCK1A21_page-0001.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/Ethical Hacking Training - Certificate of Completion (1)_page-0001.jpg" alt=""></div>
+        </div>
+         <div class="gallery-item">
+            <div class="content"><img src="img/ISHA SAINI_page-0001.jpg" alt=""></div>
+        </div>
+        <!--<div class="gallery-item">
+            <div class="content"><img src="img/sim1.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/sim2.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/parchai.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/mi (1).webp" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/mi (2).webp" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/c (1).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/c (2).webp" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/c (1).webp" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/c (3).webp" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/h (1).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/h (2).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/h (3).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/h (4).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/miss_isha_saini.png" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/a (1).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/a (2).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/a (3).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/aa (1).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/aa (2).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="img/aa (3).jpg" alt=""></div>
+        </div> -->
+    </div>
+
+     <!-- <script>
+        var gallery = document.querySelector('#gallery');
+var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+var resizeAll = function () {
+    var altura = getVal(gallery, 'grid-auto-rows');
+    var gap = getVal(gallery, 'grid-row-gap');
+    gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+        var el = item;
+        el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
+    });
+};
+gallery.querySelectorAll('img').forEach(function (item) {
+    item.classList.add('byebye');
+    if (item.complete) {
+        console.log(item.src);
+    }
+    else {
+        item.addEventListener('load', function () {
+            var altura = getVal(gallery, 'grid-auto-rows');
+            var gap = getVal(gallery, 'grid-row-gap');
+            var gitem = item.parentElement.parentElement;
+            gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+            item.classList.remove('byebye');
+        });
+    }
+});
+window.addEventListener('resize', resizeAll);
+gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+    item.addEventListener('click', function () {        
+        item.classList.toggle('full');        
+    });
+});
+
+     </script> -->
+
+     <certificates>
+        <div class="details">
+        <div class="ethical" data-aos="zoom-in-right"  data-aos-duration="3000">
+            <div class="img">
+                <img src="img/Ethical Hacking Training - Certificate of Completion (1)_page-0001.jpg">
+            </div>
+            <div class="content">
+                <p>Successfully completed a 8 weeks online certified training on Ethical Hacking. The training consisted of Basics of Information Security and Computer Networking, Information Gathering and Basics of Web Development, Introduction to Web VAPT, OWASP and SQL Injections, Advanced Web Application Attacks, Client Side Attacks, Identifying Security Misconfigurations and Exploiting Outdated Web Applications, Automating VAPT and Secure Code Development, Documenting and Reporting Vulnerabilities, and The Final Project modules. I scored 100% in the final assessment and was a top performer in the training.   </p>
+            </div>
+        </div>
+        <div class="ethical milaap" data-aos="zoom-in-left"  data-aos-duration="3000">
+            <div class="img">
+                <img src="img/Ethical Hacking Training - Certificate of Completion (1)_page-0001.jpg">
+            </div>
+            <div class="content">
+                <p>Successfully completed a 8 weeks online certified training on Ethical Hacking. The training consisted of Basics of Information Security and Computer Networking, Information Gathering and Basics of Web Development, Introduction to Web VAPT, OWASP and SQL Injections, Advanced Web Application Attacks, Client Side Attacks, Identifying Security Misconfigurations and Exploiting Outdated Web Applications, Automating VAPT and Secure Code Development, Documenting and Reporting Vulnerabilities, and The Final Project modules. I scored 100% in the final assessment and was a top performer in the training.   </p>
+            </div>
+        </div>
+        <div class="ethical b" data-aos="zoom-in-right"  data-aos-duration="3000">
+            <div class="img">
+                <img src="img/Ethical Hacking Training - Certificate of Completion (1)_page-0001.jpg">
+            </div>
+            <div class="content">
+                <p>Successfully completed a 8 weeks online certified training on Ethical Hacking. The training consisted of Basics of Information Security and Computer Networking, Information Gathering and Basics of Web Development, Introduction to Web VAPT, OWASP and SQL Injections, Advanced Web Application Attacks, Client Side Attacks, Identifying Security Misconfigurations and Exploiting Outdated Web Applications, Automating VAPT and Secure Code Development, Documenting and Reporting Vulnerabilities, and The Final Project modules. I scored 100% in the final assessment and was a top performer in the training.   </p>
+            </div>
+        </div>
+        <div class="ethical excelsior" data-aos="zoom-in-left"  data-aos-duration="3000">
+            <div class="img">
+                <img src="img/Ethical Hacking Training - Certificate of Completion (1)_page-0001.jpg">
+            </div>
+            <div class="content">
+                <p>Successfully completed a 8 weeks online certified training on Ethical Hacking. The training consisted of Basics of Information Security and Computer Networking, Information Gathering and Basics of Web Development, Introduction to Web VAPT, OWASP and SQL Injections, Advanced Web Application Attacks, Client Side Attacks, Identifying Security Misconfigurations and Exploiting Outdated Web Applications, Automating VAPT and Secure Code Development, Documenting and Reporting Vulnerabilities, and The Final Project modules. I scored 100% in the final assessment and was a top performer in the training.   </p>
+            </div>
+        </div>
+        </div>
+     </certificates>
+
+     <script>
+        AOS.init();
+      </script>
+
+     <footer>
+        <div id="contact" class="contact">
+            <div class="ct">
+                <h3>Contact me</h3>
+                <p><b>Get in touch with me - <a href="https://mail.google.com/">ishasaini0404@gmail.com</a></b></p>
+                <p>or find me on:</p2>
+            </div>
+            <div class="profile">
+                <!-- <a href="https://www.linkedin.com/in/isha-saini-0404/">LinkedIn</a>
+                <a href="https://www.codechef.com/users/isha_0401">Codechef</a>
+                <a href="https://www.instagram.com/_ishaa_04/">Instagram</a> -->
+                <a href="https://www.linkedin.com/in/isha-saini-0404/" class="fa fa-linkedin"></a>
+                <a href="https://www.codechef.com/users/isha_0401" class="fa fa-codechef"></a>
+                <a href="https://www.instagram.com/_ishaa_04/" class="fa fa-instagram"></a>
+    
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
